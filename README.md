@@ -22,6 +22,7 @@ This iOS project allows users to view the latest Counter Strike matches from the
 To install the app, follow these steps:
 
 1. Open the file `FuseCodeChallenge.xcodeproj` in Xcode 
+2. Enter your Pandascore API token on the line 16 of the file `Network/PandascoreAPI/PandascoreEndpoint.swift`
 2. If you are running on Simulator, just press run `CMD+R`
 3. If you are running on a real device, you must update the team information for a team where your device is registred
 

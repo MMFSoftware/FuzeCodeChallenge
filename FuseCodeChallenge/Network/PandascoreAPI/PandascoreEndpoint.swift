@@ -13,6 +13,8 @@ class PandascoreEndpoint: URLRequestProtocol {
   var urlParameters: [URLQueryItem]
   var headers: [String: String] = [:]
 
+  let apiToken = "ENTER API TOKEN HERE"
+
   init(url: String, urlParameters: [URLQueryItem] = []) {
     self.urlParameters = urlParameters
     self.url = url
@@ -33,7 +35,7 @@ class PandascoreEndpoint: URLRequestProtocol {
   private func setupHeaders() {
     headers = [
       "accept": "application/json",
-      "Authorization": "Bearer DPtnujZFcFCbvmY4xlJoMw1GVskDqi0gJQy6IUJko9_Vr-9m84I"
+      "Authorization": "Bearer \(apiToken)"
     ]
   }
 }
