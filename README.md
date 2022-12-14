@@ -1,4 +1,4 @@
-#Fuse Challenge: Counter Strike Match Tracker
+# Fuse Challenge: Counter Strike Match Tracker
 
 This iOS project allows users to view the latest Counter Strike matches from the Pandascore API. With this app, you can easily keep track of your favorite teams and players, and never miss a match again.
 
